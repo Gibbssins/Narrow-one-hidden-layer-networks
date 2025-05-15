@@ -23,3 +23,5 @@ We explore how architectural constraints and training dynamics affect learning a
 1. Clone the repository
 2. Install dependencies
 3. Run `main.py` or your notebook of choice to reproduce experiments
+
+## Link to the Paper
