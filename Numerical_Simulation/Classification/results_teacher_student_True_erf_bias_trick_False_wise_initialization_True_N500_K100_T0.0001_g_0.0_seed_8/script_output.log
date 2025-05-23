@@ -1,0 +1,19 @@
+Script started at Fri May 23 02:31:27 CEST 2025
+2025-05-23 02:31:27 - Running script with lr=0.07
+Started process with PID 2326 for lr=0.07
+the values of alpha are [1.0]
+erf 0.0 0.0001 500 100
+['#1f77b4']
+The dictionary is not empty.
+none theoretical data to display
+none theoretical data to display
+none theoretical data to display
+Traceback (most recent call last):
+  File "/Users/gibbsnwemadji/Documents/Final_Repo_for_Github_Available_to_public/Numerical_Simulation/Classification/results_teacher_student_True_erf_bias_trick_False_wise_initialization_True_N500_K100_T0.0001_g_0.0_seed_8/ps_plot_save_data.py", line 47, in <module>
+    plot_exp_theo(subkeyset1, dict_list, theo_directory,N,K,T,gamma,activ_func,lr,wise_initialization,semilog=False)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gibbsnwemadji/Documents/Final_Repo_for_Github_Available_to_public/Numerical_Simulation/Classification/results_teacher_student_True_erf_bias_trick_False_wise_initialization_True_N500_K100_T0.0001_g_0.0_seed_8/ps_utils_data.py", line 247, in plot_exp_theo
+    array = dict_list[keys]
+            ~~~~~~~~~^^^^^^
+KeyError: 'bayes_errs_test'
+2025-05-23 02:31:29 - Python script executed successfully for all learning rates.
