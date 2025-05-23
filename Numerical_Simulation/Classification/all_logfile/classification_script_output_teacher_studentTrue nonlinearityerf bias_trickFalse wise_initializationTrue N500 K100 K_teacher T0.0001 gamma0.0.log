@@ -1,0 +1,50 @@
+Script started at Fri May 23 02:16:31 CEST 2025
+Started process with PID 97292 for teacher_student=True nonlinearity=erf wise_initialization=True T=0.0001 K=100 N=500 gamma=0.0 K_teacher=100 Gamma=0.0 alpha=1.0 lr=0.07
+Traceback (most recent call last):
+  File "/Users/gibbsnwemadji/Documents/Final_Repo_for_Github_Available_to_public/Numerical_Simulation/Classification/train_script_bayeserrorclassification.py", line 7, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Script started at Fri May 23 02:29:40 CEST 2025
+Started process with PID 1667 for teacher_student=True nonlinearity=erf wise_initialization=True T=0.0001 K=100 N=500 gamma=0.0 K_teacher=100 Gamma=0.0 alpha=1.0 lr=0.07
+We are doing the teacher student simulation
+...using cpu
+results_teacher_student_True_erf_bias_trick_False_wise_initialization_True_N500_K100_T0.0001_g_0.0_seed_8
+the shape of the data is torch.Size([50001, 500])
+Have you tried this? :-)
+the directory results_teacher_student_True_erf_bias_trick_False_wise_initialization_True_N500_K100_T0.0001_g_0.0_seed_8/teacher_model.pt
+Primarily saving of the teacher
+initialize previous epoch :False
+fresh initialization
+The test error without learning is 0.001
+teacher_student: True p_train: 0 ep: 10 time: 0.02 en: 3.62208876 err: 3.62208876 normW: 0.00200000err test: 0.22700000 *
+teacher_student: True p_train: 1 ep: 20 time: 0.02 en: 3.89951014 err: 3.89951014 normW: 0.00200000err test: 0.23800000
+teacher_student: True p_train: 2 ep: 30 time: 0.02 en: 3.98190406 err: 3.98190406 normW: 0.00200000err test: 0.23500000
+teacher_student: True p_train: 3 ep: 40 time: 0.02 en: 4.00884370 err: 4.00884370 normW: 0.00200000err test: 0.23000000
+teacher_student: True p_train: 4 ep: 50 time: 0.02 en: 4.01920992 err: 4.01920992 normW: 0.00200000err test: 0.23500000
+teacher_student: True p_train: 5 ep: 60 time: 0.02 en: 4.03642719 err: 4.03642719 normW: 0.00200000err test: 0.23800000
+teacher_student: True p_train: 6 ep: 70 time: 0.02 en: 4.04160018 err: 4.04160018 normW: 0.00200000err test: 0.23700000
+teacher_student: True p_train: 7 ep: 80 time: 0.02 en: 4.04294224 err: 4.04294224 normW: 0.00200000err test: 0.23800000
+teacher_student: True p_train: 8 ep: 90 time: 0.02 en: 4.04538112 err: 4.04538112 normW: 0.00200000err test: 0.23300000
+teacher_student: True p_train: 9 ep: 100 time: 0.02 en: 4.04585317 err: 4.04585317 normW: 0.00200000err test: 0.23900000
+teacher_student: True p_train: 10 ep: 110 time: 0.02 en: 4.04241026 err: 4.04241026 normW: 0.00200000err test: 0.23900000
+teacher_student: True p_train: 11 ep: 120 time: 0.02 en: 4.05233951 err: 4.05233951 normW: 0.00200000err test: 0.23800000
+teacher_student: True p_train: 12 ep: 130 time: 0.02 en: 4.04963066 err: 4.04963066 normW: 0.00200000err test: 0.23700000
+teacher_student: True p_train: 13 ep: 140 time: 0.02 en: 4.05769007 err: 4.05769007 normW: 0.00200000err test: 0.23100000
+teacher_student: True p_train: 14 ep: 150 time: 0.02 en: 4.05781055 err: 4.05781055 normW: 0.00200000err test: 0.22700000
+teacher_student: True p_train: 15 ep: 160 time: 0.02 en: 4.06051960 err: 4.06051960 normW: 0.00200000err test: 0.23200000
+teacher_student: True p_train: 16 ep: 170 time: 0.02 en: 4.06376364 err: 4.06376364 normW: 0.00200000err test: 0.22900000
+teacher_student: True p_train: 17 ep: 180 time: 0.02 en: 4.06915342 err: 4.06915342 normW: 0.00200000err test: 0.22900000
+teacher_student: True p_train: 18 ep: 190 time: 0.02 en: 4.06872915 err: 4.06872915 normW: 0.00200000err test: 0.22900000
+teacher_student: True p_train: 19 ep: 200 time: 0.02 en: 4.07261429 err: 4.07261429 normW: 0.00200000err test: 0.22600000 *
+teacher_student: True p_train: 20 ep: 210 time: 0.02 en: 4.07502220 err: 4.07502220 normW: 0.00200000err test: 0.22400000 *
+teacher_student: True p_train: 21 ep: 220 time: 0.02 en: 4.07850321 err: 4.07850321 normW: 0.00200000err test: 0.22500000
+teacher_student: True p_train: 22 ep: 230 time: 0.02 en: 4.08341893 err: 4.08341893 normW: 0.00200000err test: 0.22500000
+teacher_student: True p_train: 23 ep: 240 time: 0.02 en: 4.08726364 err: 4.08726364 normW: 0.00200000err test: 0.22800000
+teacher_student: True p_train: 24 ep: 250 time: 0.02 en: 4.10369034 err: 4.10369034 normW: 0.00200000err test: 0.22100000 *
+teacher_student: True p_train: 25 ep: 260 time: 0.02 en: 4.10611267 err: 4.10611267 normW: 0.00200000err test: 0.22900000
+teacher_student: True p_train: 26 ep: 270 time: 0.02 en: 4.10328201 err: 4.10328201 normW: 0.00200000err test: 0.22600000
+teacher_student: True p_train: 27 ep: 280 time: 0.02 en: 4.10049476 err: 4.10049476 normW: 0.00200000err test: 0.22400000
+teacher_student: True p_train: 28 ep: 290 time: 0.02 en: 4.10759609 err: 4.10759609 normW: 0.00200000err test: 0.22500000
+teacher_student: True p_train: 29 ep: 300 time: 0.02 en: 4.10084206 err: 4.10084206 normW: 0.00200000err test: 0.22700000
+done for all
+elapsed: 0:00:29.140231

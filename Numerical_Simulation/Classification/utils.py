@@ -16,8 +16,8 @@ import time
 import pynvml
 import threading
 
-pynvml.nvmlInit()
-handle = pynvml.nvmlDeviceGetHandleByIndex(0)
+#pynvml.nvmlInit()
+#handle = pynvml.nvmlDeviceGetHandleByIndex(0)
 
 
 

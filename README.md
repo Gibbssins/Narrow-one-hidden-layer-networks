@@ -22,6 +22,23 @@ We explore how architectural constraints and training dynamics affect learning a
 
 1. Clone the repository
 2. Install dependencies
-3. Run `main.py` or your notebook of choice to reproduce experiments
+
+3. To launch training runs with custom settings, use the provided .sh script. It automatically executes the Python training script with your chosen parameters and logs output to ./all_logfile/.
+
+    Key Options:
+        -	initialize_previousepochs: Resume training from previous results (True) or start fresh (False).
+        -	bias_trick: Center the labels for improved training.
+        -	wise_initialization: Start from a student close to the teacher (planted initialization).
+        -	alpha_values, lr_list, T : Sets of hyperparameters over which to iterate.
+
+## How to Use:
+
+    Run the script with:
+
+    bash run_experiment.sh
+
+    This will run all combinations of parameters in the background and save logs for later review.
+
+
 
 ## Link to the Paper
