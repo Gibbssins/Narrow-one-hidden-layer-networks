@@ -17,3 +17,5 @@ Traceback (most recent call last):
             ~~~~~~~~~^^^^^^
 KeyError: 'bayes_errs_test'
 2025-05-23 02:31:29 - Python script executed successfully for all learning rates.
+Two days have passed. Exiting...
+Script ended at Fri May 23 03:01:29 CEST 2025
